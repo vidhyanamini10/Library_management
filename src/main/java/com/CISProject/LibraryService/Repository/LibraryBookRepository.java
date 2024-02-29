@@ -1,6 +1,6 @@
-package com.cis.batch33.library.repository;
+package com.CISProject.LibraryService.Repository;
 
-import com.cis.batch33.library.entity.LibraryBook;
+import com.CISProject.LibraryService.entity.LibraryBook;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

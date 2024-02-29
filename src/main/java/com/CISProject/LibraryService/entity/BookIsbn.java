@@ -1,4 +1,4 @@
-package com.cis.batch33.library.entity;
+package com.CISProject.LibraryService.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

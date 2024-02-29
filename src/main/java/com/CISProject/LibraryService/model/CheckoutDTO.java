@@ -1,5 +1,4 @@
-package com.cis.batch33.library.model;
-
+package com.CISProject.LibraryService.model;
 import lombok.Data;
 
 import java.util.Date;

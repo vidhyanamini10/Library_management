@@ -1,4 +1,4 @@
-package com.cis.batch33.library.entity;
+package com.CISProject.LibraryService.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -16,6 +16,6 @@ public class Address {
     private String city;
     private String state;
     private Integer zip;
-    @OneToMany(mappedBy = "address")
+    @OneToMany(mappedBy = "address",cascade = CascadeType.ALL)
     private List<LibraryMember> members;
 }

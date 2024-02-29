@@ -1,5 +1,4 @@
-package com.cis.batch33.library.entity;
-
+package com.CISProject.LibraryService.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -25,6 +24,6 @@ public class LibraryBook {
     @Column(name="quantity")
     private Integer quantity;
 
-    @OneToMany(mappedBy = "libraryBook")
+    @OneToMany(mappedBy = "libraryBook", cascade = CascadeType.ALL)
     private List<BookIsbn> bookIsbns;
 }
